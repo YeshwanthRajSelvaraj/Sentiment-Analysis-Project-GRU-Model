@@ -32,4 +32,52 @@ To run this project, ensure you have the following installed on your machine:
 To install the necessary Python libraries, use the following:
 
 ```bash
+🚀 How to Run Locally
+Clone the Repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/Sentiment-Analysis-GRU.git
+cd Sentiment-Analysis-GRU
+Install Required Libraries:
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
+Run the Training Script:
+
+bash
+Copy
+Edit
+python sentiment_gru.py
+(Make sure the dataset CSV is in the same folder or specify the correct path inside the code.)
+
+Outputs:
+
+Trained Word2Vec model
+
+Saved GRU model (.pth file)
+
+Accuracy, loss graphs (optional if you visualize)
+
+📈 Results
+Training Accuracy: ~91.2%
+
+Loss: Decreases smoothly across epochs
+
+Model Strengths:
+
+Robust to noise in text data
+
+Learns sequential dependencies efficiently
+
+Generalizes well to unseen reviews
+
+📑 Future Improvements
+Extend to multi-class sentiment classification (positive, neutral, negative)
+
+Implement attention mechanisms for enhanced performance
+
+Deploy as a simple web API using Flask or FastAPI
