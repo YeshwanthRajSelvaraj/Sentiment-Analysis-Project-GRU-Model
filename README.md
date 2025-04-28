@@ -1,3 +1,32 @@
+# Machine Learning Models for Sentiment Analysis, Garbage Classification, and Text-to-Voice
+
+## Overview
+
+This repository contains three distinct machine learning models, each addressing a unique problem in the domain of Natural Language Processing (NLP) and Computer Vision:
+
+1. **Sentiment Analysis Model (GRU-based)**  
+   This model performs sentiment analysis on textual data using a Gated Recurrent Unit (GRU) network. It classifies user input into positive, negative, or neutral sentiments.
+
+2. **Garbage Classification Model**  
+   A Convolutional Neural Network (CNN) based model for classifying different types of garbage in images. The model helps in the efficient identification and sorting of waste for proper disposal and recycling.
+
+3. **Text-to-Voice Model**  
+   This model converts textual content into human-like speech, utilizing a deep learning-based approach to generate natural-sounding audio from text. The model enhances accessibility by converting written reviews or feedback into speech.
+
+---
+
+## Table of Contents
+
+- [Sentiment Analysis Model](#sentiment-analysis-model)
+- [Garbage Classification Model](#garbage-classification-model)
+- [Text-to-Voice Model](#text-to-voice-model)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
 # Sentiment Classification Using GRU (Gated Recurrent Unit)
 
 ## Overview
