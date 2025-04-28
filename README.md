@@ -29,31 +29,6 @@ To run this project, ensure you have the following installed on your machine:
 - **NLTK**
 - **Scikit-learn**
 
-To install the necessary Python libraries, use the following:
-
-```bash
-🚀 How to Run Locally
-Clone the Repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/Sentiment-Analysis-GRU.git
-cd Sentiment-Analysis-GRU
-Install Required Libraries:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the Training Script:
-
-bash
-Copy
-Edit
-python sentiment_gru.py
-(Make sure the dataset CSV is in the same folder or specify the correct path inside the code.)
-
 Outputs:
 
 Trained Word2Vec model
@@ -81,3 +56,23 @@ Extend to multi-class sentiment classification (positive, neutral, negative)
 Implement attention mechanisms for enhanced performance
 
 Deploy as a simple web API using Flask or FastAPI
+
+
+```bash
+
+🚀 How to Run Locally
+
+Clone the Repository:
+
+git clone https://github.com/your-username/Sentiment-Analysis-GRU.git
+
+cd Sentiment-Analysis-GRU
+
+Install Required Libraries:
+
+pip install -r requirements.txt
+
+Run the Training Script:
+
+python sentiment_gru.py
+
